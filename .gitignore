@@ -1,0 +1,10 @@
+ExampleProject/ExampleProject/bin
+ExampleProject/ExampleProject/obj/
+
+ExampleProject/ExampleProject.Android/bin/
+ExampleProject/ExampleProject.Android/obj/
+
+ExampleProject/ExampleProject.iOS/bin/
+ExampleProject/ExampleProject.iOS/obj/
+
+.vs/
