@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="ExampleProject.View.Custom.CustomEntryCell"
+          x:Name="this">
+    <ViewCell.View>
+        <Grid x:Name="Grid"
+              Margin="0, 4, 0, 4"
+              Padding="15, 10, 15, 10"
+              BackgroundColor="#ddd"
+              BindingContext="{Binding Source={x:Reference this}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Example Header"
+                   FontSize="Large"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+
+            <Entry Text="{Binding TextForEntry}"
+                   TextColor="Black"
+                   BackgroundColor="LightGray"
+                   FontSize="Medium"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+
+            <Label Text="Example Discription"
+                   FontSize="Small"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+        </Grid>
+    </ViewCell.View>
+</ViewCell>

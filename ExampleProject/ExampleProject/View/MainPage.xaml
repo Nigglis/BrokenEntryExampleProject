@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleProject.MainPage"
+             xmlns:local="clr-namespace:ExampleProject.View.Custom">
+
+    <TableView HasUnevenRows="True">
+        <TableRoot>
+            <TableSection>
+
+                <local:CustomEntryCell TextForEntry="{Binding FirstEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SecondEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding ThirdEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding FourthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding FifthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SixthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SeventhEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding FirstEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SecondEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding ThirdEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding FourthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding FifthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SixthEntry, Mode=TwoWay}"/>
+
+                <local:CustomEntryCell TextForEntry="{Binding SeventhEntry, Mode=TwoWay}"/>
+
+            </TableSection>
+        </TableRoot>
+    </TableView>
+
+</ContentPage>
